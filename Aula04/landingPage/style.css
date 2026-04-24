@@ -265,6 +265,30 @@ body {
 }
 
 
+.sobre {
+    padding: var(--espaco-xxl) 0;
+}
+
+.sobre .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* 1fr 1fr -> Duas colunas de tamanhos iguais */
+    gap: 4rem;
+    align-items: center;
+    
+}
+
+.sobre-texto span {
+    text-transform: uppercase;
+    color: var(--cor-primaria);
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: var(--espaco-sm);
+}
+
+
+
+
 
 
 

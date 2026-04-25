@@ -286,6 +286,23 @@ body {
     margin-bottom: var(--espaco-sm);
 }
 
+.sobre-titulo {
+    font-size: clamp(1.75rem, 3rem, 3rem);
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--cor-texto);
+    margin-bottom: var(--espaco-lg);
+}
+
+.sobre-paragrafo {
+    font-size: 1.0625rem;
+    color: var(--cor-texto-suave);
+    line-height: 1.75;
+    margin-bottom: var(--espaco-md);
+}
+
+
+
 
 
 
